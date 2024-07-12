@@ -4,11 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.university.entity.EEE;
 import com.example.university.repository.EEERepository;
 import com.example.university.service.EEEService;
-
+@Service
 public class EEEServiceImpl implements EEEService {
 	@Autowired
 	private EEERepository eeeRepository;
